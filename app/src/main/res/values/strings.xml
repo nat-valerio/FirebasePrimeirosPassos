@@ -3,5 +3,7 @@
     <string name="btn">Salvar</string>
     <string name="nome">Nome</string>
     <string name="item_leitura">Leitura</string>
+    <string name="media">Média</string>
+    <string name="apagar">Apagar</string>
 
 </resources>

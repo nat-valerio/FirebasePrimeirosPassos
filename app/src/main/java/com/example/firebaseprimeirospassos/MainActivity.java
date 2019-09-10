@@ -51,6 +51,10 @@ public class MainActivity extends AppCompatActivity {
                         setValue(editTextNome.getText().toString());
     }
 
+    public void apagarDado(View v){
+        databaseReference.child("Dicionario").child("Valor").removeValue();
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
 
